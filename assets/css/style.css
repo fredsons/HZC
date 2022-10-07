@@ -2,7 +2,7 @@
 
 body {
   background-color: var(--corpo);
-  font-family: 'Open sans', sans-serif;
+  font-family: 'Open sans', 'icones', sans-serif;
   color: var(--fonte);
 }
 
@@ -13,4 +13,18 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 8px 16px;
+}
+
+.cabecalho__menu i::before {
+  content: '\e904';
+  font-size: 24px;
+}
+
+.cabecalho__notificacao i::before {
+  content: '\e906';
+  font-size: 24px;
+}
+
+.cabecalho__logo {
+  width: 40px;
 }

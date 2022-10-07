@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'icones';
+  src: url(../font/icones.ttf);
+}
+
 :root {
   --corpo: #1d232a;
 
