@@ -1,0 +1,21 @@
+:root {
+  --corpo: #1d232a;
+
+  --cabecalho: #1d232a;
+
+  --cabecalho-mobile: #15191c;
+
+  --menu-lateral: #15191c;
+
+  --cartao: #2c343a;
+
+  --fonte: #ffffff;
+
+  --fonte-alternativa: #95999c;
+
+  --links: #0480dc;
+
+  --botao: #0480dc;
+
+  --sombras: 0px 4px 4px rgba(0, 0, 0, 0.16);
+}

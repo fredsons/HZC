@@ -1,21 +1,16 @@
-:root{
-  corpo: `#1D232A`
+@import url(root.css);
 
-cabeçalho: `#1D232A`
+body {
+  background-color: var(--corpo);
+  font-family: 'Open sans', sans-serif;
+  color: var(--fonte);
+}
 
-cabeçalho mobile: `#15191C`
-
-menu lateral: `#15191C`
-
-cartão: `#2C343A`
-
-fonte: `#FFFFFF`
-
-fonte alternativa: `#95999C`
-
-links: `#0480DC`
-
-botão: `#0480DC`
-
-sombras: `0px 4px 4px rgba(0, 0, 0, 0.16)`
+.cabecalho {
+  align-items: center;
+  background-color: var(--cabecalho-mobile);
+  box-shadow: var(--sombras);
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 16px;
 }
