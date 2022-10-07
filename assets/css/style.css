@@ -92,3 +92,49 @@ body {
 .menu-lateral__link--pinturas::before {
   content: '\e90a';
 }
+
+.principal {
+  padding: 24px 16px;
+}
+
+.titulo-pagina {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.cartao {
+  background-color: var(--cartao);
+  border-radius: 15px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.cartao__conteudo {
+  padding: 16px;
+}
+
+.cartao__titulo {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.cartao__perfi {
+  color: var(--fonte-alternativa);
+  font-size: 0.9rem;
+}
+
+.cartao__info {
+  align-items: center;
+  display: flex;
+  color: var(--fonte-alternativa);
+}
+
+.cartao__info--tempo {
+  content: '\e90c';
+  margin-right: 8px;
+}
+
+.cartao__info--visualizacao {
+  content: '\e90f';
+  margin-right: 8px;
+}
