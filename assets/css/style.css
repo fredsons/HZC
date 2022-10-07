@@ -28,3 +28,66 @@ body {
 .cabecalho__logo {
   width: 40px;
 }
+
+.menu-lateral {
+  background-color: var(--cabecalho-mobile);
+  display: flex;
+  flex-direction: column;
+  left: -100vw;
+  height: 100vh;
+  position: absolute;
+  width: 75vw;
+}
+
+.menu-lateral--ativo {
+  left: 0;
+  transition: 0.25s;
+}
+
+.menu-lateral__logo {
+  align-self: center;
+  width: 118px;
+  padding: 16px;
+}
+
+.menu-lateral__link {
+  align-items: center;
+  color: var(--fonte-alternativa);
+  display: flex;
+  padding-left: 64px;
+  height: 64px;
+}
+
+.menu-lateral__link--ativo {
+  border-left: 8px solid var(--fonte);
+  color: var(--fonte);
+  padding-left: 56px;
+}
+
+.menu-lateral__link::before {
+  content: '';
+  font-size: 24px;
+  height: 24px;
+  left: 24px;
+  position: absolute;
+  width: 24px;
+}
+
+.menu-lateral__link--inicio::before {
+  content: '\e902';
+}
+.menu-lateral__link--videos::before {
+  content: '\e90e';
+}
+.menu-lateral__link--picos::before {
+  content: '\e909';
+}
+.menu-lateral__link--integrantes::before {
+  content: '\e903';
+}
+.menu-lateral__link--camisas::before {
+  content: '\e900';
+}
+.menu-lateral__link--pinturas::before {
+  content: '\e90a';
+}
