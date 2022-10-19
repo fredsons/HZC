@@ -138,3 +138,7 @@ body {
   content: '\e90f';
   margin-right: 8px;
 }
+
+.cartao__botao {
+  display: flex;
+}
