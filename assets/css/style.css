@@ -110,35 +110,64 @@ body {
 }
 
 .cartao__conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   padding: 16px;
+}
+
+.cartao__destaque {
+  grid-column: span 2;
 }
 
 .cartao__titulo {
   font-size: 1.2rem;
   font-weight: 700;
+  grid-column: span 2;
 }
 
-.cartao__perfi {
+.cartao__perfil {
   color: var(--fonte-alternativa);
   font-size: 0.9rem;
+  grid-column: span 2;
 }
 
 .cartao__info {
   align-items: center;
-  display: flex;
   color: var(--fonte-alternativa);
+  display: flex;
 }
 
-.cartao__info--tempo {
+.cartao__info--tempo::before {
   content: '\e90c';
   margin-right: 8px;
 }
 
-.cartao__info--visualizacao {
+.cartao__info--visualizacao::before {
   content: '\e90f';
   margin-right: 8px;
 }
 
 .cartao__botao {
+  align-items: center;
+  background-color: var(--botao);
+  border-radius: 10px;
   display: flex;
+  font-size: 0.9rem;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+}
+
+.cartao__botao--play::before {
+  content: '\e90b';
+  font-size: 24px;
+}
+
+.cartao__botao--destaque {
+  grid-column: span 2;
+  width: 100%;
+}
+
+.cartao__botao--destaque::before {
+  margin-right: 8px;
 }
