@@ -94,6 +94,8 @@ body {
 }
 
 .principal {
+  display: grid;
+  gap: 16px;
   padding: 24px 16px;
 }
 
@@ -102,11 +104,20 @@ body {
   font-weight: 700;
 }
 
+.titulo-secao {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
 .cartao {
   background-color: var(--cartao);
   border-radius: 15px;
   overflow: hidden;
   width: 100%;
+}
+
+.cartao--destaque {
+  margin-bottom: 16px;
 }
 
 .cartao__conteudo {
@@ -143,6 +154,16 @@ body {
   margin-right: 8px;
 }
 
+.cartao__info--compra::before {
+  content: '\e905';
+  font-size: 1.2rem;
+}
+
+.cartao__info--comprar::before {
+  content: '\e901';
+  font-size: 1.6rem;
+}
+
 .cartao__info--visualizacao::before {
   content: '\e90f';
   margin-right: 8px;
@@ -157,6 +178,7 @@ body {
   width: 40px;
   height: 40px;
   justify-content: center;
+  justify-self: flex-end;
 }
 
 .cartao__botao--play::before {
@@ -171,4 +193,9 @@ body {
 
 .cartao__botao--destaque::before {
   margin-right: 8px;
+}
+
+.secao {
+  display: grid;
+  gap: 16px;
 }
