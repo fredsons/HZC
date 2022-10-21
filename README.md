@@ -17,13 +17,13 @@ Open Sans:
 
 corpo: `#1D232A`
 
-cabeçalho: `#1D232A`
+cabecalho: `#1D232A`
 
-cabeçalho mobile: `#15191C`
+cabecalho mobile: `#15191C`
 
 menu lateral: `#15191C`
 
-cartão: `#2C343A`
+cartao: `#2C343A`
 
 fonte: `#FFFFFF`
 
@@ -31,7 +31,7 @@ fonte alternativa: `#95999C`
 
 links: `#0480DC`
 
-botão: `#0480DC`
+botao: `#0480DC`
 
 sombras: `0px 4px 4px rgba(0, 0, 0, 0.16)`
 
